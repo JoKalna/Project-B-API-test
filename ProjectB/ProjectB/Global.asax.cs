@@ -14,6 +14,7 @@ namespace ProjectB
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
+            //for our project this is the interest for the API. 
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
